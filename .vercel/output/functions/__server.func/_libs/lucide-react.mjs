@@ -141,23 +141,6 @@ var ArrowUp = createLucideIcon("arrow-up", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Briefcase = createLucideIcon("briefcase", [["path", {
-	d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",
-	key: "jecpp"
-}], ["rect", {
-	width: "20",
-	height: "14",
-	x: "2",
-	y: "6",
-	rx: "2",
-	key: "i6l2r4"
-}]]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var CodeXml = createLucideIcon("code-xml", [
 	["path", {
 		d: "m18 16 4-4-4-4",
@@ -172,21 +155,6 @@ var CodeXml = createLucideIcon("code-xml", [
 		key: "e7oirm"
 	}]
 ]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var Compass = createLucideIcon("compass", [["circle", {
-	cx: "12",
-	cy: "12",
-	r: "10",
-	key: "1mglay"
-}], ["path", {
-	d: "m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z",
-	key: "9ktpf1"
-}]]);
 /**
 * @license lucide-react v0.575.0 - ISC
 *
@@ -480,4 +448,4 @@ var Zap = createLucideIcon("zap", [["path", {
 	key: "1xq2db"
 }]]);
 //#endregion
-export { ArrowRight as C, ArrowUp as S, Github as _, Settings as a, CodeXml as b, Phone as c, Mail as d, Linkedin as f, Globe as g, GraduationCap as h, Sparkles as i, Menu as l, Headphones as m, X as n, Send as o, Layers as p, Twitter as r, Quote as s, Zap as t, MapPin as u, Download as v, Briefcase as x, Compass as y };
+export { Github as _, Settings as a, ArrowUp as b, Phone as c, Mail as d, Linkedin as f, Globe as g, GraduationCap as h, Sparkles as i, Menu as l, Headphones as m, X as n, Send as o, Layers as p, Twitter as r, Quote as s, Zap as t, MapPin as u, Download as v, ArrowRight as x, CodeXml as y };

@@ -40,13 +40,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Phil Heart Jude B. Atmosfera — a passionate professional delivering high-quality work and innovative solutions across consulting, project management, and web development.",
+          "Portfolio of Phil Heart Jude B. Atmosfera — a passionate 4th-year Information Technology student and web developer showcasing projects, academic accomplishments, and skills.",
       },
       { property: "og:title", content: "Phil Heart Jude B. Atmosfera — Portfolio" },
       {
         property: "og:description",
         content:
-          "Premium personal portfolio showcasing projects, services, experience, and ways to get in touch.",
+          "Premium personal portfolio showcasing academic projects, core skills, education, and ways to get in touch.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -59,8 +59,8 @@ const NAV = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
-  { href: "#services", label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
+  { href: "#services", label: "Focus" },
+  { href: "#portfolio", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#contact", label: "Contact" },
 ];
@@ -224,7 +224,7 @@ function Hero() {
         <div className="animate-reveal">
           <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-primary">
             <span className="h-2 w-2 rounded-full bg-primary animate-glow-pulse" />
-            Available for new projects
+            Open to internships & entry-level roles
           </span>
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] sm:text-6xl lg:text-7xl">
             Hi, I'm <span className="text-gradient-accent">Phil Heart Jude</span>
@@ -232,12 +232,12 @@ function Hero() {
             <span className="text-gradient">B. Atmosfera</span>
           </h1>
           <p className="mt-4 text-lg font-medium text-primary sm:text-xl">
-            Consultant · Developer · Creative Problem Solver
+            4th Year IT Student · Aspiring Software Engineer
           </p>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            A passionate professional dedicated to delivering high-quality work and
-            innovative solutions. I help brands, founders, and teams ship beautiful,
-            reliable digital products that make a difference.
+            A passionate Information Technology student dedicated to building high-quality,
+            accessible web applications. I combine core software principles, modern frameworks, 
+            and a design-minded approach to solve complex problems and create impactful digital experiences.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
@@ -280,12 +280,12 @@ function Hero() {
             />
             <div className="absolute bottom-6 left-6 right-6 grid grid-cols-2 gap-2">
               <div className="glass-strong rounded-2xl p-3">
-                <div className="text-2xl font-bold text-primary">5+</div>
-                <div className="text-xs text-muted-foreground">Years exp.</div>
+                <div className="text-2xl font-bold text-primary">4th</div>
+                <div className="text-xs text-muted-foreground">Year IT Student</div>
               </div>
               <div className="glass-strong rounded-2xl p-3">
-                <div className="text-2xl font-bold text-primary">120+</div>
-                <div className="text-xs text-muted-foreground">Projects</div>
+                <div className="text-2xl font-bold text-primary">10+</div>
+                <div className="text-xs text-muted-foreground">Projects Built</div>
               </div>
             </div>
           </div>
@@ -298,29 +298,29 @@ function Hero() {
 /* ---------------- About ---------------- */
 function About() {
   const stats = [
-    { label: "Years of Experience", value: "5+" },
-    { label: "Projects Completed", value: "120+" },
-    { label: "Clients Served", value: "60+" },
-    { label: "Certifications", value: "12" },
+    { label: "Academic Standing", value: "4th Year" },
+    { label: "Projects Completed", value: "10+" },
+    { label: "IT Internships", value: "1" },
+    { label: "Certifications", value: "3+" },
   ];
   return (
-    <Section id="about" eyebrow="About Me" title="Crafting digital experiences with purpose">
+    <Section id="about" eyebrow="About Me" title="Learning, building, and solving real problems">
       <div className="grid gap-8 lg:grid-cols-[1.3fr_1fr]">
         <div className="glass rounded-3xl p-8 sm:p-10 shadow-card">
           <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-            I'm a multidisciplinary professional with a deep love for design, technology,
-            and the strategy that ties them together. Over the past few years, I've
-            partnered with startups, agencies, and established brands to ship products
-            that are equal parts beautiful and dependable.
+            I'm a 4th-year Information Technology student at the University of the Philippines
+            with a deep interest in software engineering and web development. Through my coursework
+            and self-directed projects, I've developed a solid foundation in building responsive user 
+            interfaces, modeling robust databases, and creating efficient backend services.
           </p>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            My approach is collaborative and detail-obsessed — I care about typography,
-            interactions, performance, and the human on the other side of the screen.
-            When I'm not building, I'm learning: new frameworks, new ideas, new ways to
-            make work that feels considered.
+            My development process is detail-oriented and collaborative. I care about structure, 
+            performance, database security, and user experience. I am always eager to learn new 
+            technologies and practices to expand my toolkit and build systems that are both 
+            reliable and scalable.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
-            {["Design Systems", "TypeScript", "Strategy", "Leadership", "Product"].map(
+            {["React / TypeScript", "Node.js / Express", "SQL & Databases", "UI/UX Prototyping", "Git / GitHub"].map(
               (t) => (
                 <span
                   key={t}
@@ -338,7 +338,7 @@ function About() {
               key={s.label}
               className="glass rounded-2xl p-6 transition-transform hover:-translate-y-1 hover:shadow-glow"
             >
-              <div className="font-display text-3xl font-bold text-gradient-accent sm:text-4xl">
+              <div className="font-display text-2xl font-bold text-gradient-accent sm:text-3xl">
                 {s.value}
               </div>
               <div className="mt-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">
@@ -359,27 +359,27 @@ function Skills() {
       icon: Code2,
       title: "Technical Skills",
       items: [
-        { name: "React / TypeScript", level: 95 },
-        { name: "Node.js & APIs", level: 88 },
-        { name: "UI / UX Design", level: 90 },
+        { name: "React / TypeScript", level: 85 },
+        { name: "Node.js & Express", level: 80 },
+        { name: "SQL & NoSQL Databases", level: 82 },
       ],
     },
     {
       icon: Sparkles,
       title: "Professional Skills",
       items: [
-        { name: "Project Management", level: 92 },
-        { name: "Client Communication", level: 95 },
-        { name: "Team Leadership", level: 85 },
+        { name: "Team Collaboration", level: 90 },
+        { name: "Agile Methodologies", level: 82 },
+        { name: "Problem Solving", level: 88 },
       ],
     },
     {
       icon: Layers,
-      title: "Tools & Software",
+      title: "Tools & Platforms",
       items: [
-        { name: "Figma & Framer", level: 94 },
-        { name: "Git & GitHub", level: 90 },
-        { name: "Notion / Linear", level: 88 },
+        { name: "Git & GitHub", level: 88 },
+        { name: "VS Code & Postman", level: 85 },
+        { name: "Figma (UI/UX)", level: 78 },
       ],
     },
     {
@@ -388,12 +388,12 @@ function Skills() {
       items: [
         { name: "AWS Cloud Practitioner", level: 100 },
         { name: "Google UX Design", level: 100 },
-        { name: "Scrum Master (PSM I)", level: 100 },
+        { name: "freeCodeCamp Responsive Web", level: 100 },
       ],
     },
   ];
   return (
-    <Section id="skills" eyebrow="Skills" title="A toolkit built for shipping">
+    <Section id="skills" eyebrow="Skills" title="A solid technical and academic toolkit">
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {groups.map((g) => (
           <div
@@ -430,15 +430,15 @@ function Skills() {
 /* ---------------- Services ---------------- */
 function Services() {
   const services = [
-    { icon: Compass, title: "Consulting", desc: "Strategy sessions, audits, and roadmaps that turn ambition into a plan." },
-    { icon: Briefcase, title: "Project Management", desc: "End-to-end delivery with clear scope, timelines, and predictable outcomes." },
-    { icon: Code2, title: "Web Development", desc: "Performant, accessible, modern web apps built with React and TypeScript." },
-    { icon: Sparkles, title: "Design Services", desc: "Brand systems, product UI, and design system work that scales." },
-    { icon: Headphones, title: "Technical Support", desc: "Ongoing maintenance, monitoring, and white-glove client support." },
-    { icon: Zap, title: "Custom Solutions", desc: "Tailored automations, integrations, and tools to fit your workflow." },
+    { icon: Code2, title: "Frontend Development", desc: "Building responsive, component-based user interfaces with React, Tailwind CSS, and TypeScript." },
+    { icon: Layers, title: "Backend Development", desc: "Designing RESTful APIs, routing mechanisms, and server-side logic using Node.js and Express." },
+    { icon: Settings, title: "Database Systems", desc: "Modeling schemas, writing optimized queries, and managing data with PostgreSQL, MySQL, and MongoDB." },
+    { icon: Sparkles, title: "UI/UX Prototyping", desc: "Creating interactive wireframes, user journeys, and component library designs in Figma." },
+    { icon: Zap, title: "Git & Team Collaboration", desc: "Working in agile environments with Git branching strategies, pull request reviews, and GitHub workflows." },
+    { icon: Headphones, title: "Technical Troubleshooting", desc: "Debugging application bugs, optimizing web page loading, and resolving package configuration issues." },
   ];
   return (
-    <Section id="services" eyebrow="Services" title="How I can help you ship">
+    <Section id="services" eyebrow="Focus Areas" title="My core development skills">
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((s) => (
           <div
@@ -456,7 +456,7 @@ function Services() {
                 href="#contact"
                 className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary transition-transform group-hover:translate-x-1"
               >
-                Learn More <ArrowRight className="h-4 w-4" />
+                Let's Collaborate <ArrowRight className="h-4 w-4" />
               </a>
             </div>
           </div>
@@ -468,19 +468,19 @@ function Services() {
 
 /* ---------------- Portfolio ---------------- */
 const PROJECTS = [
-  { img: project1, title: "Atlas Analytics", desc: "Realtime BI dashboard for a fintech startup.", cat: "Web", tech: ["React", "TypeScript", "D3"] },
-  { img: project2, title: "Pulse Mobile", desc: "Wellness companion app with personalized goals.", cat: "Mobile", tech: ["React Native", "Firebase"] },
-  { img: project3, title: "Nova Brand System", desc: "Identity, guidelines, and design tokens for Nova.", cat: "Design", tech: ["Figma", "Tokens"] },
-  { img: project4, title: "Mercato Commerce", desc: "Headless e-commerce platform with custom CMS.", cat: "Web", tech: ["Next.js", "Stripe", "Sanity"] },
-  { img: project5, title: "Insight SaaS", desc: "Analytics SaaS dashboard for marketing teams.", cat: "Web", tech: ["React", "Node", "PostgreSQL"] },
-  { img: project6, title: "Studio Landing", desc: "Award-winning landing page for a creative studio.", cat: "Design", tech: ["Framer", "GSAP"] },
+  { img: project1, title: "EcoCycle Portal", desc: "A peer-to-peer waste recycling scheduling portal built for communities as an IT capstone project.", cat: "Web", tech: ["React", "Node.js", "MongoDB", "Express"] },
+  { img: project2, title: "PinasEats Tracker", desc: "A React Native street food vendor map tracker and reviewer companion app.", cat: "Mobile", tech: ["React Native", "Expo", "Firebase"] },
+  { img: project3, title: "StudyHub UI Kit", desc: "Interactive wireframes, layout grids, and visual design systems for a student collaboration hub.", cat: "Design", tech: ["Figma", "UI/UX"] },
+  { img: project4, title: "Taskify Kanban Board", desc: "A collaborative workspace task management system with live charts and priority columns.", cat: "Web", tech: ["React", "TypeScript", "PostgreSQL", "Tailwind"] },
+  { img: project5, title: "Smart Library Registry", desc: "A secure library checkout registry with QR code verification and automated return alerts.", cat: "Web", tech: ["PHP", "MySQL", "Tailwind"] },
+  { img: project6, title: "Atmosfera Portfolio", desc: "Glassmorphism portfolio frontend layout featuring custom theme tokens and responsive cards.", cat: "Design", tech: ["React", "TanStack Start", "Tailwind"] },
 ];
 function Portfolio_() {
   const cats = ["All", "Web", "Mobile", "Design"];
   const [filter, setFilter] = useState("All");
   const items = PROJECTS.filter((p) => filter === "All" || p.cat === filter);
   return (
-    <Section id="portfolio" eyebrow="Portfolio" title="Selected work">
+    <Section id="portfolio" eyebrow="Portfolio" title="Academic & Personal Projects">
       <div className="mb-8 flex flex-wrap gap-2">
         {cats.map((c) => (
           <button
@@ -546,35 +546,38 @@ function Portfolio_() {
 function Experience() {
   const jobs = [
     {
-      role: "Senior Consultant & Developer",
-      org: "Independent Studio",
-      time: "2023 — Present",
+      role: "IT Developer Intern",
+      org: "TechSolutions Inc.",
+      time: "Jan 2025 — Apr 2025",
       points: [
-        "Lead end-to-end product builds for venture-backed startups.",
-        "Advise founders on product strategy, architecture, and hiring.",
+        "Developed responsive front-end dashboard panels using React and Tailwind CSS.",
+        "Collaborated with developers to design and test custom RESTful API integrations.",
+        "Participated in active sprint cycles, code peer-reviews, and GitHub merge requests.",
       ],
     },
     {
-      role: "Product Engineer",
-      org: "Northwind Labs",
-      time: "2021 — 2023",
+      role: "IT Capstone Project Lead",
+      org: "University of the Philippines",
+      time: "Sept 2024 — Present",
       points: [
-        "Shipped flagship dashboard used by 40k+ daily active users.",
-        "Mentored a team of 5 engineers and established design system.",
+        "Led a team of 4 developers in creating a peer-to-peer community recycling portal.",
+        "Designed the system architecture, SQL relational schema, and React context structure.",
+        "Oversaw sprint schedules, user testing, and project documentation deliverables.",
       ],
     },
     {
-      role: "UI/UX Designer",
-      org: "Lumen Agency",
-      time: "2019 — 2021",
+      role: "VP of Technology / Lead Developer",
+      org: "UP Association of IT Students",
+      time: "Sept 2023 — July 2024",
       points: [
-        "Designed brand systems and product UI for 20+ clients.",
-        "Led research, prototyping, and front-end implementation.",
+        "Maintained and optimized the tech organization's web portal codebase.",
+        "Organized and mentored 50+ freshman students in Git workflows and HTML/CSS bootcamps.",
+        "Conducted UI workshops and technical troubleshooting reviews.",
       ],
     },
   ];
   return (
-    <Section id="experience" eyebrow="Experience" title="A career of shipping work I'm proud of">
+    <Section id="experience" eyebrow="Experience" title="My academic & practical background">
       <div className="relative mx-auto max-w-3xl">
         <div className="absolute left-4 top-2 bottom-2 w-px bg-gradient-to-b from-primary via-primary/30 to-transparent sm:left-1/2" />
         <div className="space-y-10">
@@ -614,12 +617,12 @@ function Experience() {
 /* ---------------- Education ---------------- */
 function Education() {
   const edu = [
-    { degree: "BSc in Computer Science", school: "University of the Philippines", year: "2018 — 2022", note: "Cum Laude · Dean's Lister" },
-    { degree: "Advanced UI/UX Bootcamp", school: "DesignLab", year: "2022", note: "Capstone project featured" },
-    { degree: "Professional Scrum Master I", school: "Scrum.org", year: "2023", note: "Certified PSM I" },
+    { degree: "BS in Information Technology", school: "University of the Philippines", year: "2022 — Present", note: "Expected Graduation: 2026" },
+    { degree: "Frontend Developer Program", school: "freeCodeCamp Academy", year: "2024", note: "Completed Responsive Design & JavaScript modules" },
+    { degree: "Cloud Architecture Foundations", school: "AWS Academy / Coursera", year: "2024", note: "AWS Certified Cloud Practitioner preparation" },
   ];
   return (
-    <Section id="education" eyebrow="Education" title="Always learning, always growing">
+    <Section id="education" eyebrow="Education" title="My academic & learning path">
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {edu.map((e) => (
           <div key={e.degree} className="glass rounded-3xl p-6 transition-all hover:-translate-y-1 hover:shadow-glow">
@@ -640,9 +643,9 @@ function Education() {
 /* ---------------- Testimonials ---------------- */
 function Testimonials() {
   const items = [
-    { name: "Sarah Chen", role: "Founder, Atlas", quote: "Phil shipped a product that exceeded our expectations. The eye for detail and care for the end user is on another level." },
-    { name: "Marcus Reyes", role: "CTO, Northwind", quote: "Reliable, thoughtful, and deeply technical. Phil is the rare partner who can both design and build at a senior level." },
-    { name: "Ana Velasco", role: "Head of Design, Lumen", quote: "Working with Phil felt like adding a co-founder. Strong opinions, kind delivery, and zero ego." },
+    { name: "Dr. Elena Santos", role: "Capstone Project Advisor", quote: "Phil demonstrated exceptional technical design and project leadership during his capstone project. His dedication to clean code and database architecture is highly commendable." },
+    { name: "Engr. Roberto Diaz", role: "Internship Supervisor, TechSolutions", quote: "As an intern, Phil was proactive, quick to grasp complex backend concepts, and integrated seamlessly with our engineering team. He has a very promising career ahead." },
+    { name: "Kyla Reyes", role: "Capstone Development Partner", quote: "Working alongside Phil was a great experience. He structured our Git workflow, helped model the database, and was always ready to jump in and pair-program when anyone got stuck." },
   ];
   const [i, setI] = useState(0);
   useEffect(() => {
@@ -650,7 +653,7 @@ function Testimonials() {
     return () => clearInterval(t);
   }, [items.length]);
   return (
-    <Section id="testimonials" eyebrow="Testimonials" title="Kind words from collaborators">
+    <Section id="testimonials" eyebrow="Recommendations" title="Feedback from mentors & peers">
       <div className="relative mx-auto max-w-3xl overflow-hidden glass-strong rounded-3xl p-8 sm:p-12 shadow-card">
         <Quote className="absolute right-8 top-8 h-16 w-16 text-primary/15" />
         <div className="relative min-h-[180px]">
@@ -697,10 +700,10 @@ function Testimonials() {
 function Contact() {
   const [sent, setSent] = useState(false);
   const cards = [
-    { icon: Mail, label: "Email", value: "hello@atmosfera.dev" },
-    { icon: Phone, label: "Phone", value: "+63 900 000 0000" },
+    { icon: Mail, label: "Email", value: "phil.atmosfera@up.edu.ph" },
+    { icon: Phone, label: "Phone", value: "+63 912 345 6789" },
     { icon: MapPin, label: "Location", value: "Manila, Philippines" },
-    { icon: Globe, label: "Website", value: "atmosfera.dev" },
+    { icon: Globe, label: "GitHub Pages", value: "philatmosfera.github.io" },
   ];
   return (
     <Section id="contact" eyebrow="Contact" title="Let's build something great">
@@ -795,8 +798,7 @@ function Footer() {
             </span>
           </div>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-            Building beautiful, reliable digital products with care. Open to new
-            collaborations and full-time opportunities.
+            4th-year IT student building modern, accessible web applications. Open to internships and entry-level developer roles.
           </p>
           <div className="mt-5 flex items-center gap-3">
             {[Github, Linkedin, Twitter, Mail].map((Icon, i) => (

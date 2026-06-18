@@ -1,10 +1,10 @@
 import { r as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
-import { C as ArrowRight, S as ArrowUp, _ as Github, a as Settings, b as CodeXml, c as Phone, d as Mail, f as Linkedin, g as Globe, h as GraduationCap, i as Sparkles, l as Menu, m as Headphones, n as X, o as Send, p as Layers, r as Twitter, s as Quote, t as Zap, u as MapPin, v as Download, x as Briefcase, y as Compass } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-UDHsW84s.js
+import { _ as Github, a as Settings, b as ArrowUp, c as Phone, d as Mail, f as Linkedin, g as Globe, h as GraduationCap, i as Sparkles, l as Menu, m as Headphones, n as X, o as Send, p as Layers, r as Twitter, s as Quote, t as Zap, u as MapPin, v as Download, x as ArrowRight, y as CodeXml } from "../_libs/lucide-react.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BYWymcsq.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var portrait_default = "/assets/portrait-nR39T7b1.jpg";
+var portrait_default = "/assets/portrait-CIB-SBTw.jpg";
 var project_1_default = "/assets/project-1-DnHD7Ali.jpg";
 var project_2_default = "/assets/project-2-Ddwxs7br.jpg";
 var project_3_default = "/assets/project-3-CHyIt1Zf.jpg";
@@ -26,11 +26,11 @@ var NAV = [
 	},
 	{
 		href: "#services",
-		label: "Services"
+		label: "Focus"
 	},
 	{
 		href: "#portfolio",
-		label: "Portfolio"
+		label: "Projects"
 	},
 	{
 		href: "#experience",
@@ -162,7 +162,7 @@ function Hero() {
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 							className: "inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-primary",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "h-2 w-2 rounded-full bg-primary animate-glow-pulse" }), "Available for new projects"]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "h-2 w-2 rounded-full bg-primary animate-glow-pulse" }), "Open to internships & entry-level roles"]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
 							className: "mt-6 font-display text-4xl font-bold leading-[1.05] sm:text-6xl lg:text-7xl",
@@ -181,11 +181,11 @@ function Hero() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "mt-4 text-lg font-medium text-primary sm:text-xl",
-							children: "Consultant · Developer · Creative Problem Solver"
+							children: "4th Year IT Student · Aspiring Software Engineer"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg",
-							children: "A passionate professional dedicated to delivering high-quality work and innovative solutions. I help brands, founders, and teams ship beautiful, reliable digital products that make a difference."
+							children: "A passionate Information Technology student dedicated to building high-quality, accessible web applications. I combine core software principles, modern frameworks, and a design-minded approach to solve complex problems and create impactful digital experiences."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "mt-8 flex flex-wrap gap-3",
@@ -249,19 +249,19 @@ function Hero() {
 								className: "glass-strong rounded-2xl p-3",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "text-2xl font-bold text-primary",
-									children: "5+"
+									children: "4th"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "text-xs text-muted-foreground",
-									children: "Years exp."
+									children: "Year IT Student"
 								})]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "glass-strong rounded-2xl p-3",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "text-2xl font-bold text-primary",
-									children: "120+"
+									children: "10+"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 									className: "text-xs text-muted-foreground",
-									children: "Projects"
+									children: "Projects Built"
 								})]
 							})]
 						})]
@@ -275,7 +275,7 @@ function About() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Section, {
 		id: "about",
 		eyebrow: "About Me",
-		title: "Crafting digital experiences with purpose",
+		title: "Learning, building, and solving real problems",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "grid gap-8 lg:grid-cols-[1.3fr_1fr]",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -283,20 +283,20 @@ function About() {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-base leading-relaxed text-muted-foreground sm:text-lg",
-						children: "I'm a multidisciplinary professional with a deep love for design, technology, and the strategy that ties them together. Over the past few years, I've partnered with startups, agencies, and established brands to ship products that are equal parts beautiful and dependable."
+						children: "I'm a 4th-year Information Technology student at the University of the Philippines with a deep interest in software engineering and web development. Through my coursework and self-directed projects, I've developed a solid foundation in building responsive user interfaces, modeling robust databases, and creating efficient backend services."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg",
-						children: "My approach is collaborative and detail-obsessed — I care about typography, interactions, performance, and the human on the other side of the screen. When I'm not building, I'm learning: new frameworks, new ideas, new ways to make work that feels considered."
+						children: "My development process is detail-oriented and collaborative. I care about structure, performance, database security, and user experience. I am always eager to learn new technologies and practices to expand my toolkit and build systems that are both reliable and scalable."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "mt-6 flex flex-wrap gap-2",
 						children: [
-							"Design Systems",
-							"TypeScript",
-							"Strategy",
-							"Leadership",
-							"Product"
+							"React / TypeScript",
+							"Node.js / Express",
+							"SQL & Databases",
+							"UI/UX Prototyping",
+							"Git / GitHub"
 						].map((t) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 							className: "rounded-full border border-primary/30 bg-primary/5 px-3 py-1 text-xs font-medium text-primary",
 							children: t
@@ -307,25 +307,25 @@ function About() {
 				className: "grid grid-cols-2 gap-4",
 				children: [
 					{
-						label: "Years of Experience",
-						value: "5+"
+						label: "Academic Standing",
+						value: "4th Year"
 					},
 					{
 						label: "Projects Completed",
-						value: "120+"
+						value: "10+"
 					},
 					{
-						label: "Clients Served",
-						value: "60+"
+						label: "IT Internships",
+						value: "1"
 					},
 					{
 						label: "Certifications",
-						value: "12"
+						value: "3+"
 					}
 				].map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "glass rounded-2xl p-6 transition-transform hover:-translate-y-1 hover:shadow-glow",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "font-display text-3xl font-bold text-gradient-accent sm:text-4xl",
+						className: "font-display text-2xl font-bold text-gradient-accent sm:text-3xl",
 						children: s.value
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "mt-2 text-xs font-medium uppercase tracking-wider text-muted-foreground",
@@ -340,7 +340,7 @@ function Skills() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Section, {
 		id: "skills",
 		eyebrow: "Skills",
-		title: "A toolkit built for shipping",
+		title: "A solid technical and academic toolkit",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "grid gap-6 sm:grid-cols-2 lg:grid-cols-4",
 			children: [
@@ -350,15 +350,15 @@ function Skills() {
 					items: [
 						{
 							name: "React / TypeScript",
-							level: 95
+							level: 85
 						},
 						{
-							name: "Node.js & APIs",
-							level: 88
+							name: "Node.js & Express",
+							level: 80
 						},
 						{
-							name: "UI / UX Design",
-							level: 90
+							name: "SQL & NoSQL Databases",
+							level: 82
 						}
 					]
 				},
@@ -367,34 +367,34 @@ function Skills() {
 					title: "Professional Skills",
 					items: [
 						{
-							name: "Project Management",
-							level: 92
+							name: "Team Collaboration",
+							level: 90
 						},
 						{
-							name: "Client Communication",
-							level: 95
+							name: "Agile Methodologies",
+							level: 82
 						},
 						{
-							name: "Team Leadership",
-							level: 85
+							name: "Problem Solving",
+							level: 88
 						}
 					]
 				},
 				{
 					icon: Layers,
-					title: "Tools & Software",
+					title: "Tools & Platforms",
 					items: [
 						{
-							name: "Figma & Framer",
-							level: 94
-						},
-						{
 							name: "Git & GitHub",
-							level: 90
+							level: 88
 						},
 						{
-							name: "Notion / Linear",
-							level: 88
+							name: "VS Code & Postman",
+							level: 85
+						},
+						{
+							name: "Figma (UI/UX)",
+							level: 78
 						}
 					]
 				},
@@ -411,7 +411,7 @@ function Skills() {
 							level: 100
 						},
 						{
-							name: "Scrum Master (PSM I)",
+							name: "freeCodeCamp Responsive Web",
 							level: 100
 						}
 					]
@@ -454,40 +454,40 @@ function Skills() {
 function Services() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Section, {
 		id: "services",
-		eyebrow: "Services",
-		title: "How I can help you ship",
+		eyebrow: "Focus Areas",
+		title: "My core development skills",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "grid gap-6 sm:grid-cols-2 lg:grid-cols-3",
 			children: [
 				{
-					icon: Compass,
-					title: "Consulting",
-					desc: "Strategy sessions, audits, and roadmaps that turn ambition into a plan."
-				},
-				{
-					icon: Briefcase,
-					title: "Project Management",
-					desc: "End-to-end delivery with clear scope, timelines, and predictable outcomes."
-				},
-				{
 					icon: CodeXml,
-					title: "Web Development",
-					desc: "Performant, accessible, modern web apps built with React and TypeScript."
+					title: "Frontend Development",
+					desc: "Building responsive, component-based user interfaces with React, Tailwind CSS, and TypeScript."
+				},
+				{
+					icon: Layers,
+					title: "Backend Development",
+					desc: "Designing RESTful APIs, routing mechanisms, and server-side logic using Node.js and Express."
+				},
+				{
+					icon: Settings,
+					title: "Database Systems",
+					desc: "Modeling schemas, writing optimized queries, and managing data with PostgreSQL, MySQL, and MongoDB."
 				},
 				{
 					icon: Sparkles,
-					title: "Design Services",
-					desc: "Brand systems, product UI, and design system work that scales."
-				},
-				{
-					icon: Headphones,
-					title: "Technical Support",
-					desc: "Ongoing maintenance, monitoring, and white-glove client support."
+					title: "UI/UX Prototyping",
+					desc: "Creating interactive wireframes, user journeys, and component library designs in Figma."
 				},
 				{
 					icon: Zap,
-					title: "Custom Solutions",
-					desc: "Tailored automations, integrations, and tools to fit your workflow."
+					title: "Git & Team Collaboration",
+					desc: "Working in agile environments with Git branching strategies, pull request reviews, and GitHub workflows."
+				},
+				{
+					icon: Headphones,
+					title: "Technical Troubleshooting",
+					desc: "Debugging application bugs, optimizing web page loading, and resolving package configuration issues."
 				}
 			].map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "group relative overflow-hidden rounded-3xl glass p-7 transition-all hover:-translate-y-1 hover:shadow-glow",
@@ -509,7 +509,7 @@ function Services() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 							href: "#contact",
 							className: "mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary transition-transform group-hover:translate-x-1",
-							children: ["Learn More ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "h-4 w-4" })]
+							children: ["Let's Collaborate ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "h-4 w-4" })]
 						})
 					]
 				})]
@@ -520,57 +520,67 @@ function Services() {
 var PROJECTS = [
 	{
 		img: project_1_default,
-		title: "Atlas Analytics",
-		desc: "Realtime BI dashboard for a fintech startup.",
+		title: "EcoCycle Portal",
+		desc: "A peer-to-peer waste recycling scheduling portal built for communities as an IT capstone project.",
 		cat: "Web",
 		tech: [
 			"React",
-			"TypeScript",
-			"D3"
+			"Node.js",
+			"MongoDB",
+			"Express"
 		]
 	},
 	{
 		img: project_2_default,
-		title: "Pulse Mobile",
-		desc: "Wellness companion app with personalized goals.",
+		title: "PinasEats Tracker",
+		desc: "A React Native street food vendor map tracker and reviewer companion app.",
 		cat: "Mobile",
-		tech: ["React Native", "Firebase"]
+		tech: [
+			"React Native",
+			"Expo",
+			"Firebase"
+		]
 	},
 	{
 		img: project_3_default,
-		title: "Nova Brand System",
-		desc: "Identity, guidelines, and design tokens for Nova.",
+		title: "StudyHub UI Kit",
+		desc: "Interactive wireframes, layout grids, and visual design systems for a student collaboration hub.",
 		cat: "Design",
-		tech: ["Figma", "Tokens"]
+		tech: ["Figma", "UI/UX"]
 	},
 	{
 		img: project_4_default,
-		title: "Mercato Commerce",
-		desc: "Headless e-commerce platform with custom CMS.",
+		title: "Taskify Kanban Board",
+		desc: "A collaborative workspace task management system with live charts and priority columns.",
 		cat: "Web",
 		tech: [
-			"Next.js",
-			"Stripe",
-			"Sanity"
+			"React",
+			"TypeScript",
+			"PostgreSQL",
+			"Tailwind"
 		]
 	},
 	{
 		img: project_5_default,
-		title: "Insight SaaS",
-		desc: "Analytics SaaS dashboard for marketing teams.",
+		title: "Smart Library Registry",
+		desc: "A secure library checkout registry with QR code verification and automated return alerts.",
 		cat: "Web",
 		tech: [
-			"React",
-			"Node",
-			"PostgreSQL"
+			"PHP",
+			"MySQL",
+			"Tailwind"
 		]
 	},
 	{
 		img: project_6_default,
-		title: "Studio Landing",
-		desc: "Award-winning landing page for a creative studio.",
+		title: "Atmosfera Portfolio",
+		desc: "Glassmorphism portfolio frontend layout featuring custom theme tokens and responsive cards.",
 		cat: "Design",
-		tech: ["Framer", "GSAP"]
+		tech: [
+			"React",
+			"TanStack Start",
+			"Tailwind"
+		]
 	}
 ];
 function Portfolio_() {
@@ -585,7 +595,7 @@ function Portfolio_() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Section, {
 		id: "portfolio",
 		eyebrow: "Portfolio",
-		title: "Selected work",
+		title: "Academic & Personal Projects",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "mb-8 flex flex-wrap gap-2",
 			children: cats.map((c) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
@@ -655,29 +665,41 @@ function Experience() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Section, {
 		id: "experience",
 		eyebrow: "Experience",
-		title: "A career of shipping work I'm proud of",
+		title: "My academic & practical background",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "relative mx-auto max-w-3xl",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute left-4 top-2 bottom-2 w-px bg-gradient-to-b from-primary via-primary/30 to-transparent sm:left-1/2" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "space-y-10",
 				children: [
 					{
-						role: "Senior Consultant & Developer",
-						org: "Independent Studio",
-						time: "2023 — Present",
-						points: ["Lead end-to-end product builds for venture-backed startups.", "Advise founders on product strategy, architecture, and hiring."]
+						role: "IT Developer Intern",
+						org: "TechSolutions Inc.",
+						time: "Jan 2025 — Apr 2025",
+						points: [
+							"Developed responsive front-end dashboard panels using React and Tailwind CSS.",
+							"Collaborated with developers to design and test custom RESTful API integrations.",
+							"Participated in active sprint cycles, code peer-reviews, and GitHub merge requests."
+						]
 					},
 					{
-						role: "Product Engineer",
-						org: "Northwind Labs",
-						time: "2021 — 2023",
-						points: ["Shipped flagship dashboard used by 40k+ daily active users.", "Mentored a team of 5 engineers and established design system."]
+						role: "IT Capstone Project Lead",
+						org: "University of the Philippines",
+						time: "Sept 2024 — Present",
+						points: [
+							"Led a team of 4 developers in creating a peer-to-peer community recycling portal.",
+							"Designed the system architecture, SQL relational schema, and React context structure.",
+							"Oversaw sprint schedules, user testing, and project documentation deliverables."
+						]
 					},
 					{
-						role: "UI/UX Designer",
-						org: "Lumen Agency",
-						time: "2019 — 2021",
-						points: ["Designed brand systems and product UI for 20+ clients.", "Led research, prototyping, and front-end implementation."]
+						role: "VP of Technology / Lead Developer",
+						org: "UP Association of IT Students",
+						time: "Sept 2023 — July 2024",
+						points: [
+							"Maintained and optimized the tech organization's web portal codebase.",
+							"Organized and mentored 50+ freshman students in Git workflows and HTML/CSS bootcamps.",
+							"Conducted UI workshops and technical troubleshooting reviews."
+						]
 					}
 				].map((j, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: `grid sm:grid-cols-2 sm:gap-10 ${i % 2 ? "sm:[&>*:first-child]:order-2" : ""}`,
@@ -727,27 +749,27 @@ function Education() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Section, {
 		id: "education",
 		eyebrow: "Education",
-		title: "Always learning, always growing",
+		title: "My academic & learning path",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "grid gap-6 sm:grid-cols-2 lg:grid-cols-3",
 			children: [
 				{
-					degree: "BSc in Computer Science",
+					degree: "BS in Information Technology",
 					school: "University of the Philippines",
-					year: "2018 — 2022",
-					note: "Cum Laude · Dean's Lister"
+					year: "2022 — Present",
+					note: "Expected Graduation: 2026"
 				},
 				{
-					degree: "Advanced UI/UX Bootcamp",
-					school: "DesignLab",
-					year: "2022",
-					note: "Capstone project featured"
+					degree: "Frontend Developer Program",
+					school: "freeCodeCamp Academy",
+					year: "2024",
+					note: "Completed Responsive Design & JavaScript modules"
 				},
 				{
-					degree: "Professional Scrum Master I",
-					school: "Scrum.org",
-					year: "2023",
-					note: "Certified PSM I"
+					degree: "Cloud Architecture Foundations",
+					school: "AWS Academy / Coursera",
+					year: "2024",
+					note: "AWS Certified Cloud Practitioner preparation"
 				}
 			].map((e) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "glass rounded-3xl p-6 transition-all hover:-translate-y-1 hover:shadow-glow",
@@ -780,19 +802,19 @@ function Education() {
 function Testimonials() {
 	const items = [
 		{
-			name: "Sarah Chen",
-			role: "Founder, Atlas",
-			quote: "Phil shipped a product that exceeded our expectations. The eye for detail and care for the end user is on another level."
+			name: "Dr. Elena Santos",
+			role: "Capstone Project Advisor",
+			quote: "Phil demonstrated exceptional technical design and project leadership during his capstone project. His dedication to clean code and database architecture is highly commendable."
 		},
 		{
-			name: "Marcus Reyes",
-			role: "CTO, Northwind",
-			quote: "Reliable, thoughtful, and deeply technical. Phil is the rare partner who can both design and build at a senior level."
+			name: "Engr. Roberto Diaz",
+			role: "Internship Supervisor, TechSolutions",
+			quote: "As an intern, Phil was proactive, quick to grasp complex backend concepts, and integrated seamlessly with our engineering team. He has a very promising career ahead."
 		},
 		{
-			name: "Ana Velasco",
-			role: "Head of Design, Lumen",
-			quote: "Working with Phil felt like adding a co-founder. Strong opinions, kind delivery, and zero ego."
+			name: "Kyla Reyes",
+			role: "Capstone Development Partner",
+			quote: "Working alongside Phil was a great experience. He structured our Git workflow, helped model the database, and was always ready to jump in and pair-program when anyone got stuck."
 		}
 	];
 	const [i, setI] = (0, import_react.useState)(0);
@@ -802,8 +824,8 @@ function Testimonials() {
 	}, [items.length]);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Section, {
 		id: "testimonials",
-		eyebrow: "Testimonials",
-		title: "Kind words from collaborators",
+		eyebrow: "Recommendations",
+		title: "Feedback from mentors & peers",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "relative mx-auto max-w-3xl overflow-hidden glass-strong rounded-3xl p-8 sm:p-12 shadow-card",
 			children: [
@@ -860,12 +882,12 @@ function Contact() {
 					{
 						icon: Mail,
 						label: "Email",
-						value: "hello@atmosfera.dev"
+						value: "phil.atmosfera@up.edu.ph"
 					},
 					{
 						icon: Phone,
 						label: "Phone",
-						value: "+63 900 000 0000"
+						value: "+63 912 345 6789"
 					},
 					{
 						icon: MapPin,
@@ -874,8 +896,8 @@ function Contact() {
 					},
 					{
 						icon: Globe,
-						label: "Website",
-						value: "atmosfera.dev"
+						label: "GitHub Pages",
+						value: "philatmosfera.github.io"
 					}
 				].map((c) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "glass flex items-center gap-4 rounded-2xl p-5 transition-all hover:-translate-y-0.5 hover:shadow-glow",
@@ -992,7 +1014,7 @@ function Footer() {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-4 max-w-sm text-sm text-muted-foreground",
-						children: "Building beautiful, reliable digital products with care. Open to new collaborations and full-time opportunities."
+						children: "4th-year IT student building modern, accessible web applications. Open to internships and entry-level developer roles."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "mt-5 flex items-center gap-3",
